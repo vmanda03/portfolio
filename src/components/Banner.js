@@ -45,9 +45,8 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Varshini Manda `}<span className="wrap">{text}</span></h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>I’m a Software Developer who loves to craft intuitive and dynamic user experiences on the front end while building robust and scalable systems behind the scenes. From pixels to APIs, I bridge the gap between design and functionality. With a passion for clean code and efficient systems, I believe every line of code brings an idea to life. Let’s build something impactful, one commit at a time.</p>
                         <button onClick={() => console.log('clicked')}>Let's connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
