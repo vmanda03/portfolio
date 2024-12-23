@@ -40,6 +40,10 @@ export const Banner = () => {
         }
     }
 
+    const openResume = () => {
+        window.open('/Varshini_Resume.pdf', '_blank');
+    }
+
     return (
         <section className="banner" id="home">
             <Container>
@@ -47,7 +51,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <h1>{`Hi I'm Varshini Manda `}<span className="wrap">{text}</span></h1>
                         <p>I’m a Software Developer who loves to craft intuitive and dynamic user experiences on the front end while building robust and scalable systems behind the scenes. From pixels to APIs, I bridge the gap between design and functionality. With a passion for clean code and efficient systems, I believe every line of code brings an idea to life. Let’s build something impactful, one commit at a time.</p>
-                        <button onClick={() => console.log('clicked')}>Let's connect <ArrowRightCircle size={25} /></button>
+                        <button onClick={openResume}>Hire My Story <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                     <img src={headerImg} alt="header img" />
